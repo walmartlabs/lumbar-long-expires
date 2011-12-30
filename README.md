@@ -1,6 +1,6 @@
-# Lumbar Long Expires
+# Lumbar Long Expires Plugin
 
-Lumbar plugin that provides long-expires resource loading for lumbar modules.
+[Lumbar](https://github.com/walmartlabs/lumbar) plugin that provides long-expires resource loading for lumbar modules.
 
 ## Configuration
 
@@ -17,3 +17,4 @@ The following example uses the current git SHA as the unique token.
       "modules": [],
       "long-expires": "git rev-parse HEAD"
     }
+lumbar.json
