@@ -13,8 +13,10 @@ commit sha, a timestamp, or any other value that will be unique on each build.
 
 The following example uses the current git SHA as the unique token.
 
+```javascript
     {
       "modules": [],
       "long-expires": "git rev-parse HEAD"
     }
+```
 lumbar.json
