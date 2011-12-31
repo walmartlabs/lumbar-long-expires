@@ -11,5 +11,9 @@
     "node": ">=0.4.2"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "expresso -s test/*"
+  }
 }
