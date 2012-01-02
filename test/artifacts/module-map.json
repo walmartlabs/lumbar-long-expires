@@ -1,0 +1,24 @@
+{
+  "platforms": [ "web" ],
+  "modules": {
+    "base": {
+      "scripts": [
+        "js/base.js",
+        {"module-map": true}
+      ],
+      "styles": [
+        "css/base.styl"
+      ]
+    },
+    "home": {
+      "routes": {"home": "home"},
+      "scripts": [
+        "js/base.js"
+      ]
+    }
+  },
+
+  "moduleMap": "App.moduleMap",
+  "loadPrefix": "foo/",
+  "long-expires": "grep \"^v\" grep.txt"
+}

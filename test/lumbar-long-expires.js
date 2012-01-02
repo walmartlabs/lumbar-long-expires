@@ -3,6 +3,7 @@ var assert = require('assert'),
     longExpires = require('../lib/lumbar-long-expires');
 
 exports['file-names'] = lib.runTest('test/artifacts/file-names.json', 'test/expected/file-names', {plugins: [longExpires]});
+exports['module-map'] = lib.runTest('test/artifacts/module-map.json', 'test/expected/module-map', {plugins: [longExpires]});
 
 exports['grep'] = function(done) {
   longExpires.generateToken('grep "^v" grep.txt', function(err, token) {
