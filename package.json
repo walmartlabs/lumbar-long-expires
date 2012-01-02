@@ -12,6 +12,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "glob": "~2.0",
+    "wrench": "~1.2"
   },
   "scripts": {
     "test": "expresso -s test/*"

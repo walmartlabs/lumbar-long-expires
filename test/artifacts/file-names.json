@@ -1,0 +1,18 @@
+{
+  "modules": {
+    "base": {
+      "scripts": [
+        "js/base.js"
+      ],
+      "styles": [
+        "css/base.styl"
+      ]
+    }
+  },
+
+  "styles": {
+    "pixelDensity": [ 1, 2 ]
+  },
+
+  "long-expires": "grep \"^v\" grep.txt"
+}
