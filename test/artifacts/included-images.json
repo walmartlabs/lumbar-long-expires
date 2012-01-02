@@ -1,0 +1,15 @@
+{
+  "modules": {
+    "base": {
+      "styles": [
+        "css/image.styl"
+      ]
+    }
+  },
+
+  "styles": {
+    "urlSizeLimit": 1,
+    "copyFiles": true
+  },
+  "long-expires": "grep \"^v\" grep.txt"
+}
