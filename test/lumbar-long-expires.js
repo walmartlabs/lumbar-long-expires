@@ -5,6 +5,20 @@ var assert = require('assert'),
 exports['file-names'] = lib.runTest('test/artifacts/file-names.json', 'test/expected/file-names', {plugins: [longExpires]});
 exports['module-map'] = lib.runTest('test/artifacts/module-map.json', 'test/expected/module-map', {plugins: [longExpires]});
 
+/*
+ * Toeken Generation Tests
+ */
+exports['empty-token'] = function(done) {
+  longExpires.generateToken('', function(err, token) {
+      if (err) {
+        throw err;
+      }
+
+      assert.eql(token, '');
+      done();
+    });
+};
+
 exports['grep'] = function(done) {
   longExpires.generateToken('grep "^v" grep.txt', function(err, token) {
       if (err) {
