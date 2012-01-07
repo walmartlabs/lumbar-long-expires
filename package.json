@@ -10,7 +10,10 @@
   "engines": {
     "node": ">=0.4.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async": "~0.1",
+    "jsdom": "~0.2"
+  },
   "devDependencies": {
     "glob": "~2.0",
     "wrench": "~1.2"
