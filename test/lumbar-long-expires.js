@@ -5,6 +5,7 @@ var assert = require('assert'),
 exports['file-names'] = lib.runTest('test/artifacts/file-names.json', 'test/expected/file-names', {plugins: [longExpires]});
 exports['module-map'] = lib.runTest('test/artifacts/module-map.json', 'test/expected/module-map', {plugins: [longExpires]});
 exports['included-images'] = lib.runTest('test/artifacts/included-images.json', 'test/expected/included-images', {plugins: [longExpires]});
+exports['index-update'] = lib.runTest('test/artifacts/index-update.json', 'test/expected/index-update', {plugins: [longExpires]}, '/**/*.{js,css,html}');
 
 /*
  * Toeken Generation Tests

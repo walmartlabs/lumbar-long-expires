@@ -1,0 +1,16 @@
+{
+  "platforms": [ "web" ],
+  "modules": {
+    "base": {
+      "scripts": [
+        "js/base.js"
+      ],
+      "static": [
+        {"src": "index.html", "update-externals": true, "no-expires-token": true}
+      ]
+    }
+  },
+
+  "loadPrefix": "/r/phoenix/",
+  "long-expires": "grep \"^v\" grep.txt"
+}
