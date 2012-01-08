@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "async": "~0.1",
-    "jsdom": "~0.2"
+    "htmlparser": "~1.7",
+    "jsdom": "~0.2",
+    "underscore": "~1.2"
   },
   "devDependencies": {
     "glob": "~2.0",
