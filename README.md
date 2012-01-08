@@ -9,6 +9,10 @@ object. The value of this key is the process that is executed to generate expire
 cache busting key. This could be a unique id from source control such as the git
 commit sha, a timestamp, or any other value that will be unique on each build.
 
+When in watch mode this value is cached until the configuration is changed. It will
+only update when a complete rebuild is done as a result of changing the config file
+or restarting the watch.
+
 ## Example
 
 The following example uses the current git SHA as the unique token.
