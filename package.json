@@ -18,6 +18,7 @@
     "glob": "~2.0",
     "wrench": "~1.2"
   },
+  "main": "lib/lumbar-long-expires",
   "scripts": {
     "test": "expresso -s test/*"
   }
