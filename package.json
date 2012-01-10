@@ -10,12 +10,7 @@
   "engines": {
     "node": ">=0.4.2"
   },
-  "dependencies": {
-    "async": "~0.1",
-    "htmlparser": "~1.7",
-    "jsdom": "~0.2",
-    "underscore": "~1.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "glob": "~2.0",
     "lumbar": "~0.5",
