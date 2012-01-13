@@ -2,8 +2,14 @@
   "author": "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)",
   "name": "lumbar-long-expires",
   "description": "Long expires cache buster plugin for Lumbar",
-  "keywords": ["lumbar", "build", "module", "mobile", "performance"],
-  "version": "0.0.1",
+  "keywords": [
+    "lumbar",
+    "build",
+    "module",
+    "mobile",
+    "performance"
+  ],
+  "version": "1.0.0",
   "repository": {
     "url": "git://github.com/walmartlabs/lumbar-long-expires.git"
   },
