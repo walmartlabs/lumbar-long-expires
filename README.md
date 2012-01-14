@@ -20,7 +20,8 @@ The following example uses the current git SHA as the unique token.
 ```javascript
     {
       "modules": [],
-      "long-expires": "git rev-parse HEAD"
+      "plugins": ["lumbar-long-expires"],
+      "long-expires": "git rev-parse --short HEAD"
     }
 ```
 lumbar.json
