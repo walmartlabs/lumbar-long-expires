@@ -7,6 +7,7 @@
     }
   },
 
+  "loadPrefix": "/foo/",
   "styles": {
     "urlSizeLimit": 1,
     "copyFiles": true
