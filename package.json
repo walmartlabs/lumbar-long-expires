@@ -18,12 +18,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "glob": "~2.0",
-    "lumbar": "~0.5",
+    "expresso": "~0.9",
+    "glob": "~3.0",
+    "lumbar": "~1.0",
     "wrench": "~1.2"
   },
   "main": "lib/lumbar-long-expires",
   "scripts": {
-    "test": "expresso -s test/*"
+    "test": "node_modules/.bin/expresso -s test/*"
   }
 }
