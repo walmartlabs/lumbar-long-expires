@@ -1,5 +1,7 @@
 # Lumbar Long Expires Plugin
 
+[![Build Status](https://secure.travis-ci.org/walmartlabs/lumbar-long-expires.png?branch=master)](http://travis-ci.org/walmartlabs/lumbar-long-expires)
+
 [Lumbar](https://github.com/walmartlabs/lumbar) plugin that provides long-expires resource loading for lumbar modules.
 
 ## Configuration
