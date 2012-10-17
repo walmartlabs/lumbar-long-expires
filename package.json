@@ -18,13 +18,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "expresso": "~0.9",
+    "mochca": "~1.6",
     "glob": "~3.0",
-    "lumbar": "~1.0",
+    "lumbar": "~2.0",
+    "should": "~1.2",
     "wrench": "~1.2"
   },
   "main": "lib/lumbar-long-expires",
   "scripts": {
-    "test": "node_modules/.bin/expresso -s test/*"
+    "test": "node_modules/.bin/mocha test/*.js"
   }
 }
