@@ -12,5 +12,7 @@
     "urlSizeLimit": 1,
     "copyFiles": true
   },
-  "long-expires": "grep \"^v\" grep.txt"
+  "long-expires": "grep \"^v\" grep.txt",
+
+  "scope": "none"
 }

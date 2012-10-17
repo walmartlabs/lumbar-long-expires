@@ -14,5 +14,7 @@
     "pixelDensity": [ 1, 2 ]
   },
 
-  "long-expires": "grep \"^v\" grep.txt"
+  "long-expires": "grep \"^v\" grep.txt",
+
+  "scope": "none"
 }

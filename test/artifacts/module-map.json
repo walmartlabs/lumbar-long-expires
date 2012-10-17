@@ -20,5 +20,7 @@
 
   "moduleMap": "App.moduleMap",
   "loadPrefix": "foo/",
-  "long-expires": "grep \"^v\" grep.txt"
+  "long-expires": "grep \"^v\" grep.txt",
+
+  "scope": "none"
 }
