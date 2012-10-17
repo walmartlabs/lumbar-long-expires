@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "mochca": "~1.6",
+    "mocha": "~1.6",
     "glob": "~3.0",
     "lumbar": "~2.0",
     "should": "~1.2",
