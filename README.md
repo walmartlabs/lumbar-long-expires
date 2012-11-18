@@ -15,6 +15,7 @@ When in watch mode this value is cached until the configuration is changed. It w
 only update when a complete rebuild is done as a result of changing the config file
 or restarting the watch.
 
+
 ## Example
 
 The following example uses the current git SHA as the unique token.
