@@ -14,7 +14,7 @@ describe('integration', function() {
  */
  describe('token generation', function() {
   it('should handle empty tokens', function(done) {
-    longExpires.generateToken('', function(err, token) {
+    longExpires.generateToken('', '', function(err, token) {
         if (err) {
           throw err;
         }
@@ -25,7 +25,7 @@ describe('integration', function() {
   });
 
   it('should handle process execution', function(done) {
-    longExpires.generateToken('grep "^v" grep.txt', function(err, token) {
+    longExpires.generateToken('grep "^v" grep.txt', '', function(err, token) {
         if (err) {
           throw err;
         }
@@ -36,7 +36,7 @@ describe('integration', function() {
   });
 
   it('should handle git sha parsing', function(done) {
-    longExpires.generateToken('git rev-parse test-tag', function(err, token) {
+    longExpires.generateToken('git rev-parse test-tag', '', function(err, token) {
         if (err) {
           throw err;
         }
@@ -47,7 +47,7 @@ describe('integration', function() {
   });
 
   it('should execute pipes', function(done) {
-    longExpires.generateToken('cat grep.txt | grep "^v"', function(err, token) {
+    longExpires.generateToken('cat grep.txt | grep "^v"', '', function(err, token) {
         if (err) {
           throw err;
         }

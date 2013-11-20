@@ -16,11 +16,13 @@
   "engines": {
     "node": ">=0.4.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
   "devDependencies": {
     "mocha": "~1.6",
     "glob": "~3.0",
-    "lumbar": "~2.0",
+    "lumbar": "~2.4",
     "should": "~1.2",
     "wrench": "~1.2"
   },
